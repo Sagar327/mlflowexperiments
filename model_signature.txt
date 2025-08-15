@@ -1,0 +1,6 @@
+inputs: 
+  ['fixed acidity': double (required), 'volatile acidity': double (required), 'citric acid': double (required), 'residual sugar': double (required), 'chlorides': double (required), 'free sulfur dioxide': double (required), 'total sulfur dioxide': double (required), 'density': double (required), 'pH': double (required), 'sulphates': double (required), 'alcohol': double (required)]
+outputs: 
+  [Tensor('float64', (-1,))]
+params: 
+  None
